@@ -1,0 +1,572 @@
+
+Claude finished the response
+Rewrite the following readme of my github profile using plain html and css as paste ready in my github profile. the final ui should be standout : Hi there 👋, I'm Rafiul Razib
+Full-Stack MERN Developer | React.js | Next.js | TypeScript | Node.js | MongoDB | AI-Powered Applications
+I am a Full-Stack MERN Developer from Bangladesh with a background in Engineering and over 13 years of professional experience in manufacturing leadership. After transitioning into software development, I have built production-ready web applications, AI-powered solutions, e-commerce platforms, document processing systems, and event management applications.
+I enjoy solving real-world problems through technology and continuously exploring new tools, frameworks, and AI technologies.
+🚀 Tech Stack
+Frontend
+
+React.js
+Next.js
+TypeScript
+JavaScript (ES6+)
+HTML5
+CSS3
+Tailwind CSS
+Bootstrap
+DaisyUI
+Shadcn UI
+Backend
+
+Node.js
+Express.js
+REST APIs
+JWT Authentication
+NextAuth.js
+Databases
+
+MongoDB
+PostgreSQL
+AI & Automation
+
+Gemini API
+OpenAI API
+AI Chatbot Development
+Document Processing Systems
+OCR Integration
+LLM Integration
+Tools & Platforms
+
+Git
+GitHub
+Postman
+Firebase
+Vercel
+Railway
+Render
+Stripe
+🌟 Featured Projects
+📄 AI Document Processor
+AI-powered document classification and data extraction system built with Flask, OCR, and Gemini AI.
+Tech: Python, Flask, Gemini AI, OCR, PyMuPDF
+🛒 AN Mobiles
+Modern e-commerce platform for mobile phones, laptops, tablets, and accessories with authentication, payment integration, and product management.
+Tech: Next.js, Express.js, MongoDB, Stripe
+🧠 Quizlytics
+AI-powered quiz generation platform that creates quizzes based on topics, articles, and custom exams.
+Tech: React.js, Node.js, MongoDB, Gemini API
+🎟 CPSCM Reunion Management System
+Complete event registration and payment management platform with QR code verification and automated email notifications.
+Tech: Next.js, Express.js, MongoDB, SSLCommerz
+📈 Current Focus
+
+Building scalable full-stack applications
+AI-powered web solutions
+Next.js and TypeScript
+Open-source contribution
+Modern software architecture 📫 Connect With Me 🌐 Portfolio: https://rafiul-razib.netlify.app 💼 LinkedIn: https://www.linkedin.com/in/rafiul-habib 📧 Email: [rafiul.razib@gmail.com](mailto:rafiul.razib@gmail.com) ⭐ Feel free to explore my repositories and connect with me. I'm always interested in collaborating on exciting projects and learning new technologies.
+Show more
+3:35 PM
+
+Viewed a file, created a file, read a file
+Viewed a file, created a file, read a file
+Here's your GitHub profile README as a polished standalone HTML file. The design choices:
+
+Dark terminal aesthetic — deep charcoal background with a subtle cyan grid, referencing developer tooling without being cliché
+Syne + DM Mono — sharp geometric display font paired with a monospaced body, giving it a technical-editorial feel
+Animated avatar ring — a spinning conic gradient halo around your initials, the one memorable visual flourish
+Structured tech stack table — each category in a clean row layout, far more readable than bullet lists
+Project cards with colored top-accents — each project gets its own gradient bar so they're visually distinct at a glance
+Stats footer — 13+ years, 4+ projects, BD — quick social proof at a glance
+To use on GitHub: GitHub profile READMEs only render Markdown, not raw HTML/CSS. To use this design, you have two options:
+
+Host it — deploy it to Netlify/Vercel and link to it from your Markdown README as a screenshot or iframe
+Screenshot it — take a full-page screenshot and embed the image in your README.md with a link to your portfolio
+
+Github profile readme
+Code · HTML 
+currently it is showing codes in previewt.make it renderable in github profile
+
+3:47 PM
+GitHub profiles only support Markdown in README.md — raw HTML/CSS with <style> tags, animations, and custom fonts are stripped out by GitHub's sanitizer.
+
+Here's what actually works on GitHub profiles:
+
+Plain HTML tags (<h1>, <p>, <img>, <a>, <table>, <br>, <details>)
+Inline styles on a very limited subset of properties (GitHub strips most)
+SVG images (either hosted or embedded as <img src="...">)
+Markdown with badges via shields.io
+The most reliable way to get a standout, fully styled GitHub profile is:
+
+SVG-based approach — render the whole design as an SVG file (GitHub renders SVGs inline), giving full control over fonts, colors, layout
+Badges + structured Markdown — use shields.io badges, GitHub stats cards, and clean Markdown formatting
+Which would you prefer?
+
+Q: Which approach for your GitHub profile README?
+A: SVG design (full visual control, renders inline)
+
+3:48 PM
+Now I'll build the SVG. GitHub renders SVG files inline when referenced as <img src="..."> in a README. The strategy: create a self-contained SVG with embedded fonts via Google Fonts @import, dark theme, full profile layout — then the README just needs one line.
+
+
+Create the SVG profile card
+Create the SVG profile card
+Now create the README.md that uses the SVG:
+
+
+Created a file, read a file
+Created a file, read a file
+Here's your complete GitHub profile setup — two files to download.
+
+How to deploy:
+
+Create a repo named exactly rafiulrazib (same as your GitHub username) — GitHub will use it as your profile README automatically
+Upload both github-profile.svg and README.md into the root of that repo
+The SVG renders inline as an image, so GitHub's HTML sanitizer is bypassed entirely — full dark theme, custom fonts, badges, everything renders correctly
+What's included in the SVG:
+
+Dark terminal grid background with a cyan glow
+Hero with your name in Syne + italic accent, animated avatar ring
+About box with left accent bar
+Full tech stack in a structured table (Frontend / Backend / Databases / AI & Auto / Tools)
+4 project cards each with a unique gradient top border
+Current focus grid with glowing dots
+Connect cards for Portfolio, LinkedIn, Email
+Stats footer (13+ yrs, 4+ projects, BD)
+The README.md also pulls in live GitHub Stats cards that auto-update, styled to match the same dark cyan/purple palette.
+
+
+Github profile
+Image · SVG 
+
+Readme
+Document · MD 
+
+
+
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
+
+
+raw
+Github profile · SVG
+<svg xmlns="http://www.w3.org/2000/svg" width="860" viewBox="0 0 860 1780" role="img">
+  <title>Rafiul Razib – Full-Stack MERN Developer</title>
+  <desc>GitHub profile card for Rafiul Razib, Full-Stack MERN Developer from Bangladesh</desc>
+ 
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=DM+Mono:wght@400;500&amp;display=swap');
+ 
+      .f-syne { font-family: 'Syne', sans-serif; }
+      .f-mono  { font-family: 'DM Mono', monospace; }
+ 
+      .t-primary   { fill: #e8e8f0; }
+      .t-muted     { fill: #6b6b8a; }
+      .t-accent    { fill: #00e5ff; }
+      .t-accent2   { fill: #a78bfa; }
+      .t-accent3   { fill: #fbbf24; }
+      .t-green     { fill: #34d399; }
+    </style>
+ 
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00e5ff" stroke-width="0.3" opacity="0.12"/>
+    </pattern>
+ 
+    <!-- Glow filter for name -->
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+ 
+    <!-- Subtle card shadow -->
+    <filter id="card-shadow" x="-2%" y="-1%" width="104%" height="106%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+ 
+    <!-- Spinning conic gradient approximation for avatar ring -->
+    <linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+ 
+    <!-- Project top-border gradients -->
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+ 
+    <!-- Accent line gradient -->
+    <linearGradient id="divider-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+ 
+    <!-- Name accent gradient -->
+    <linearGradient id="name-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+ 
+  <!-- Background -->
+  <rect width="860" height="1780" fill="#0a0a0f"/>
+  <rect width="860" height="1780" fill="url(#grid)"/>
+ 
+  <!-- Subtle top glow blob -->
+  <ellipse cx="430" cy="0" rx="320" ry="120" fill="#00e5ff" opacity="0.04"/>
+ 
+  <!-- ══════════════════════════════════════════════════
+       HERO SECTION
+       ══════════════════════════════════════════════════ -->
+ 
+  <!-- Eyebrow -->
+  <line x1="44" y1="62" x2="68" y2="62" stroke="#00e5ff" stroke-width="1.5"/>
+  <text x="76" y="67" class="f-mono t-accent" font-size="11" letter-spacing="2" font-weight="500">OPEN TO WORK &amp; COLLABORATION</text>
+ 
+  <!-- Name -->
+  <text x="44" y="122" class="f-syne t-primary" font-size="52" font-weight="800" filter="url(#glow)">Rafiul</text>
+  <text x="220" y="122" class="f-syne" font-size="52" font-weight="800" fill="url(#name-accent)" font-style="italic">Razib</text>
+ 
+  <!-- Tagline -->
+  <text x="44" y="158" class="f-mono t-muted" font-size="13">Full-Stack MERN Developer · Bangladesh · 13+ yrs engineering experience</text>
+  <text x="44" y="178" class="f-mono t-muted" font-size="12">Building production-ready web apps, AI-powered solutions &amp; modern digital products.</text>
+ 
+  <!-- Badges row -->
+  <!-- React.js badge -->
+  <rect x="44" y="200" width="72" height="22" rx="4" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.3" stroke-width="0.8"/>
+  <text x="80" y="215" class="f-mono t-accent" font-size="10" font-weight="500" text-anchor="middle" letter-spacing="1">REACT.JS</text>
+  <!-- Next.js badge -->
+  <rect x="124" y="200" width="66" height="22" rx="4" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.3" stroke-width="0.8"/>
+  <text x="157" y="215" class="f-mono t-accent" font-size="10" font-weight="500" text-anchor="middle" letter-spacing="1">NEXT.JS</text>
+  <!-- TypeScript badge -->
+  <rect x="198" y="200" width="84" height="22" rx="4" fill="#7c3aed" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="0.8"/>
+  <text x="240" y="215" class="f-mono t-accent2" font-size="10" font-weight="500" text-anchor="middle" letter-spacing="1">TYPESCRIPT</text>
+  <!-- Node.js badge -->
+  <rect x="290" y="200" width="66" height="22" rx="4" fill="#7c3aed" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="0.8"/>
+  <text x="323" y="215" class="f-mono t-accent2" font-size="10" font-weight="500" text-anchor="middle" letter-spacing="1">NODE.JS</text>
+  <!-- MongoDB badge -->
+  <rect x="364" y="200" width="76" height="22" rx="4" fill="#10b981" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.3" stroke-width="0.8"/>
+  <text x="402" y="215" class="f-mono t-green" font-size="10" font-weight="500" text-anchor="middle" letter-spacing="1">MONGODB</text>
+  <!-- AI Apps badge -->
+  <rect x="448" y="200" width="60" height="22" rx="4" fill="#f59e0b" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity="0.3" stroke-width="0.8"/>
+  <text x="478" y="215" class="f-mono t-accent3" font-size="10" font-weight="500" text-anchor="middle" letter-spacing="1">AI APPS</text>
+ 
+  <!-- Avatar circle -->
+  <circle cx="780" cy="100" r="52" fill="url(#ring-grad)" opacity="0.9"/>
+  <circle cx="780" cy="100" r="47" fill="#111118"/>
+  <circle cx="780" cy="100" r="43" fill="#16161f"/>
+  <text x="780" y="108" class="f-syne t-primary" font-size="22" font-weight="800" text-anchor="middle">RR</text>
+ 
+  <!-- Hero divider -->
+  <rect x="44" y="238" width="772" height="1" fill="url(#divider-grad)"/>
+ 
+  <!-- ══════════════════════════════════════════════════
+       ABOUT SECTION
+       ══════════════════════════════════════════════════ -->
+ 
+  <!-- Section header -->
+  <rect x="44" y="258" width="32" height="32" rx="8" fill="#00e5ff" fill-opacity="0.1"/>
+  <text x="60" y="279" class="f-mono" font-size="15" text-anchor="middle" fill="#00e5ff">👤</text>
+  <text x="86" y="280" class="f-syne t-primary" font-size="13" font-weight="700" letter-spacing="2">ABOUT</text>
+ 
+  <!-- About box -->
+  <rect x="44" y="300" width="772" height="70" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="44" y="300" width="3" height="70" rx="2" fill="#00e5ff"/>
+  <text x="60" y="322" class="f-mono t-muted" font-size="12.5">I enjoy solving <tspan fill="#e8e8f0" font-weight="500">real-world problems</tspan> through technology and continuously exploring</text>
+  <text x="60" y="341" class="f-mono t-muted" font-size="12.5">new tools, frameworks, and AI technologies. My <tspan fill="#e8e8f0" font-weight="500">manufacturing leadership</tspan> background gives me</text>
+  <text x="60" y="360" class="f-mono t-muted" font-size="12.5">a unique perspective on building systems that work at scale — blending engineering discipline with modern dev.</text>
+ 
+  <!-- ══════════════════════════════════════════════════
+       TECH STACK SECTION
+       ══════════════════════════════════════════════════ -->
+ 
+  <!-- Section header -->
+  <rect x="44" y="396" width="32" height="32" rx="8" fill="#7c3aed" fill-opacity="0.15"/>
+  <text x="60" y="417" class="f-mono" font-size="15" text-anchor="middle" fill="#a78bfa">🚀</text>
+  <text x="86" y="418" class="f-syne t-primary" font-size="13" font-weight="700" letter-spacing="2">TECH STACK</text>
+ 
+  <!-- Stack table container -->
+  <rect x="44" y="438" width="772" height="310" rx="10" fill="none" stroke="#1e1e2e" stroke-width="0.8"/>
+ 
+  <!-- Row 1: Frontend -->
+  <rect x="44" y="438" width="772" height="62" rx="10" fill="#111118" stroke="none"/>
+  <rect x="44" y="476" width="772" height="24" fill="#111118" stroke="none"/>
+  <rect x="44" y="488" width="772" height="1" fill="#1e1e2e"/>
+  <text x="56" y="475" class="f-mono t-muted" font-size="10" letter-spacing="1.5">FRONTEND</text>
+  <!-- pills -->
+  <rect x="148" y="459" width="60" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="178" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">React.js</text>
+  <rect x="216" y="459" width="56" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="244" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">Next.js</text>
+  <rect x="280" y="459" width="76" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="318" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">TypeScript</text>
+  <rect x="364" y="459" width="96" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="412" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">JavaScript ES6+</text>
+  <rect x="468" y="459" width="44" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="490" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">HTML5</text>
+  <rect x="520" y="459" width="36" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="538" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">CSS3</text>
+  <rect x="564" y="459" width="74" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="601" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">Tailwind CSS</text>
+  <rect x="646" y="459" width="64" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="678" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">Bootstrap</text>
+  <rect x="718" y="459" width="56" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="746" y="472" class="f-mono t-primary" font-size="10" text-anchor="middle">Shadcn UI</text>
+ 
+  <!-- Row divider -->
+  <rect x="44" y="500" width="772" height="1" fill="#1e1e2e"/>
+ 
+  <!-- Row 2: Backend -->
+  <text x="56" y="522" class="f-mono t-muted" font-size="10" letter-spacing="1.5">BACKEND</text>
+  <rect x="148" y="507" width="56" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="176" y="520" class="f-mono t-primary" font-size="10" text-anchor="middle">Node.js</text>
+  <rect x="212" y="507" width="72" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="248" y="520" class="f-mono t-primary" font-size="10" text-anchor="middle">Express.js</text>
+  <rect x="292" y="507" width="72" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="328" y="520" class="f-mono t-primary" font-size="10" text-anchor="middle">REST APIs</text>
+  <rect x="372" y="507" width="84" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="414" y="520" class="f-mono t-primary" font-size="10" text-anchor="middle">JWT Auth</text>
+  <rect x="464" y="507" width="84" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="506" y="520" class="f-mono t-primary" font-size="10" text-anchor="middle">NextAuth.js</text>
+ 
+  <!-- Row divider -->
+  <rect x="44" y="538" width="772" height="1" fill="#1e1e2e"/>
+ 
+  <!-- Row 3: Databases -->
+  <text x="56" y="560" class="f-mono t-muted" font-size="10" letter-spacing="1.5">DATABASES</text>
+  <rect x="148" y="545" width="68" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="182" y="558" class="f-mono t-primary" font-size="10" text-anchor="middle">MongoDB</text>
+  <rect x="224" y="545" width="76" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="262" y="558" class="f-mono t-primary" font-size="10" text-anchor="middle">PostgreSQL</text>
+ 
+  <!-- Row divider -->
+  <rect x="44" y="576" width="772" height="1" fill="#1e1e2e"/>
+ 
+  <!-- Row 4: AI -->
+  <text x="56" y="598" class="f-mono t-muted" font-size="10" letter-spacing="1.5">AI &amp; AUTO</text>
+  <rect x="148" y="583" width="80" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="188" y="596" class="f-mono t-primary" font-size="10" text-anchor="middle">Gemini API</text>
+  <rect x="236" y="583" width="76" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="274" y="596" class="f-mono t-primary" font-size="10" text-anchor="middle">OpenAI API</text>
+  <rect x="320" y="583" width="112" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="376" y="596" class="f-mono t-primary" font-size="10" text-anchor="middle">Doc Processing</text>
+  <rect x="440" y="583" width="108" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="494" y="596" class="f-mono t-primary" font-size="10" text-anchor="middle">OCR Integration</text>
+  <rect x="556" y="583" width="104" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="608" y="596" class="f-mono t-primary" font-size="10" text-anchor="middle">LLM Integration</text>
+ 
+  <!-- Row divider -->
+  <rect x="44" y="614" width="772" height="1" fill="#1e1e2e"/>
+ 
+  <!-- Row 5: Tools -->
+  <text x="56" y="636" class="f-mono t-muted" font-size="10" letter-spacing="1.5">TOOLS</text>
+  <rect x="148" y="621" width="36" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="166" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Git</text>
+  <rect x="192" y="621" width="52" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="218" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">GitHub</text>
+  <rect x="252" y="621" width="60" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="282" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Postman</text>
+  <rect x="320" y="621" width="56" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="348" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Firebase</text>
+  <rect x="384" y="621" width="48" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="408" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Vercel</text>
+  <rect x="440" y="621" width="56" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="468" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Railway</text>
+  <rect x="504" y="621" width="48" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="528" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Render</text>
+  <rect x="560" y="621" width="44" height="19" rx="3" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="582" y="634" class="f-mono t-primary" font-size="10" text-anchor="middle">Stripe</text>
+ 
+  <!-- Bottom corner of stack table -->
+  <rect x="44" y="748" width="772" height="0" rx="10" fill="none" stroke="#1e1e2e" stroke-width="0.8"/>
+ 
+  <!-- ══════════════════════════════════════════════════
+       FEATURED PROJECTS SECTION
+       ══════════════════════════════════════════════════ -->
+ 
+  <!-- Section header -->
+  <rect x="44" y="768" width="32" height="32" rx="8" fill="#f59e0b" fill-opacity="0.12"/>
+  <text x="60" y="789" class="f-mono" font-size="15" text-anchor="middle" fill="#fbbf24">🌟</text>
+  <text x="86" y="790" class="f-syne t-primary" font-size="13" font-weight="700" letter-spacing="2">FEATURED PROJECTS</text>
+ 
+  <!-- Project 1: AI Document Processor -->
+  <rect x="44" y="812" width="372" height="148" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="44" y="812" width="372" height="3" rx="10" fill="url(#g1)"/>
+  <rect x="44" y="815" width="372" height="1" fill="none"/>
+  <text x="62" y="842" class="f-mono" font-size="18">📄</text>
+  <text x="90" y="843" class="f-syne t-primary" font-size="14" font-weight="700">AI Document Processor</text>
+  <text x="62" y="864" class="f-mono t-muted" font-size="11.5">AI-powered document classification and</text>
+  <text x="62" y="880" class="f-mono t-muted" font-size="11.5">data extraction with Flask, OCR &amp; Gemini AI.</text>
+  <!-- tech tags -->
+  <rect x="62"  y="898" width="46" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="85"  y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Python</text>
+  <rect x="116" y="898" width="36" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="134" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Flask</text>
+  <rect x="160" y="898" width="68" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="194" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Gemini AI</text>
+  <rect x="236" y="898" width="32" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="252" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">OCR</text>
+  <rect x="276" y="898" width="60" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="306" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">PyMuPDF</text>
+ 
+  <!-- Project 2: AN Mobiles -->
+  <rect x="444" y="812" width="372" height="148" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="444" y="812" width="372" height="3" rx="10" fill="url(#g2)"/>
+  <text x="462" y="842" class="f-mono" font-size="18">🛒</text>
+  <text x="490" y="843" class="f-syne t-primary" font-size="14" font-weight="700">AN Mobiles</text>
+  <text x="462" y="864" class="f-mono t-muted" font-size="11.5">Modern e-commerce for phones, laptops,</text>
+  <text x="462" y="880" class="f-mono t-muted" font-size="11.5">tablets with auth &amp; Stripe payment.</text>
+  <rect x="462" y="898" width="52" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="488" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Next.js</text>
+  <rect x="522" y="898" width="72" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="558" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Express.js</text>
+  <rect x="602" y="898" width="60" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="632" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">MongoDB</text>
+  <rect x="670" y="898" width="40" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="690" y="910" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Stripe</text>
+ 
+  <!-- Project 3: Quizlytics -->
+  <rect x="44" y="976" width="372" height="148" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="44" y="976" width="372" height="3" rx="10" fill="url(#g3)"/>
+  <text x="62" y="1006" class="f-mono" font-size="18">🧠</text>
+  <text x="90" y="1007" class="f-syne t-primary" font-size="14" font-weight="700">Quizlytics</text>
+  <text x="62" y="1028" class="f-mono t-muted" font-size="11.5">AI-powered quiz generation platform that</text>
+  <text x="62" y="1044" class="f-mono t-muted" font-size="11.5">creates quizzes from topics &amp; articles.</text>
+  <rect x="62"  y="1062" width="60" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="92"  y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">React.js</text>
+  <rect x="130" y="1062" width="56" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="158" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Node.js</text>
+  <rect x="194" y="1062" width="60" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="224" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">MongoDB</text>
+  <rect x="262" y="1062" width="80" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="302" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Gemini API</text>
+ 
+  <!-- Project 4: CPSCM -->
+  <rect x="444" y="976" width="372" height="148" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="444" y="976" width="372" height="3" rx="10" fill="url(#g4)"/>
+  <text x="462" y="1006" class="f-mono" font-size="18">🎟</text>
+  <text x="490" y="1007" class="f-syne t-primary" font-size="14" font-weight="700">CPSCM Reunion System</text>
+  <text x="462" y="1028" class="f-mono t-muted" font-size="11.5">Event registration &amp; payment with QR code</text>
+  <text x="462" y="1044" class="f-mono t-muted" font-size="11.5">verification &amp; automated email notifications.</text>
+  <rect x="462" y="1062" width="52" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="488" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Next.js</text>
+  <rect x="522" y="1062" width="72" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="558" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">Express.js</text>
+  <rect x="602" y="1062" width="60" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="632" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">MongoDB</text>
+  <rect x="670" y="1062" width="84" height="17" rx="3" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.2" stroke-width="0.8"/>
+  <text x="712" y="1074" class="f-mono t-accent" font-size="9.5" text-anchor="middle">SSLCommerz</text>
+ 
+  <!-- ══════════════════════════════════════════════════
+       CURRENT FOCUS SECTION
+       ══════════════════════════════════════════════════ -->
+ 
+  <!-- Section header -->
+  <rect x="44" y="1158" width="32" height="32" rx="8" fill="#10b981" fill-opacity="0.12"/>
+  <text x="60" y="1179" class="f-mono" font-size="15" text-anchor="middle" fill="#34d399">📈</text>
+  <text x="86" y="1180" class="f-syne t-primary" font-size="13" font-weight="700" letter-spacing="2">CURRENT FOCUS</text>
+ 
+  <!-- Focus items — 3 top row, 2 bottom row -->
+  <!-- item 1 -->
+  <rect x="44" y="1202" width="234" height="44" rx="8" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <circle cx="68" cy="1224" r="4" fill="#00e5ff"/>
+  <circle cx="68" cy="1224" r="4" fill="#00e5ff" opacity="0.4" transform="scale(1.5)" transform-origin="68 1224"/>
+  <text x="84" y="1228" class="f-mono t-muted" font-size="12">Scalable full-stack apps</text>
+  <!-- item 2 -->
+  <rect x="290" y="1202" width="234" height="44" rx="8" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <circle cx="314" cy="1224" r="4" fill="#00e5ff"/>
+  <text x="330" y="1228" class="f-mono t-muted" font-size="12">AI-powered web solutions</text>
+  <!-- item 3 -->
+  <rect x="536" y="1202" width="280" height="44" rx="8" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <circle cx="560" cy="1224" r="4" fill="#00e5ff"/>
+  <text x="576" y="1228" class="f-mono t-muted" font-size="12">Next.js &amp; TypeScript</text>
+  <!-- item 4 -->
+  <rect x="44" y="1258" width="234" height="44" rx="8" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <circle cx="68" cy="1280" r="4" fill="#00e5ff"/>
+  <text x="84" y="1284" class="f-mono t-muted" font-size="12">Open-source contribution</text>
+  <!-- item 5 -->
+  <rect x="290" y="1258" width="280" height="44" rx="8" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <circle cx="314" cy="1280" r="4" fill="#00e5ff"/>
+  <text x="330" y="1284" class="f-mono t-muted" font-size="12">Modern software architecture</text>
+ 
+  <!-- ══════════════════════════════════════════════════
+       CONNECT SECTION
+       ══════════════════════════════════════════════════ -->
+ 
+  <!-- Section header -->
+  <rect x="44" y="1342" width="32" height="32" rx="8" fill="#00e5ff" fill-opacity="0.1"/>
+  <text x="60" y="1363" class="f-mono" font-size="15" text-anchor="middle" fill="#00e5ff">📫</text>
+  <text x="86" y="1364" class="f-syne t-primary" font-size="13" font-weight="700" letter-spacing="2">CONNECT WITH ME</text>
+ 
+  <!-- Portfolio card -->
+  <rect x="44"  y="1386" width="240" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="60"  y="1406" width="38" height="38" rx="8" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="79"  y="1429" class="f-mono" font-size="18" text-anchor="middle">🌐</text>
+  <text x="108" y="1407" class="f-mono t-muted" font-size="9.5" letter-spacing="1">PORTFOLIO</text>
+  <text x="108" y="1424" class="f-mono t-primary" font-size="11.5">rafiul-razib.netlify.app</text>
+ 
+  <!-- LinkedIn card -->
+  <rect x="298" y="1386" width="240" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="314" y="1406" width="38" height="38" rx="8" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="333" y="1429" class="f-mono" font-size="18" text-anchor="middle">💼</text>
+  <text x="362" y="1407" class="f-mono t-muted" font-size="9.5" letter-spacing="1">LINKEDIN</text>
+  <text x="362" y="1424" class="f-mono t-primary" font-size="11.5">/in/rafiul-habib</text>
+ 
+  <!-- Email card -->
+  <rect x="552" y="1386" width="264" height="72" rx="10" fill="#111118" stroke="#1e1e2e" stroke-width="0.8"/>
+  <rect x="568" y="1406" width="38" height="38" rx="8" fill="#16161f" stroke="#1e1e2e" stroke-width="0.8"/>
+  <text x="587" y="1429" class="f-mono" font-size="18" text-anchor="middle">📧</text>
+  <text x="616" y="1407" class="f-mono t-muted" font-size="9.5" letter-spacing="1">EMAIL</text>
+  <text x="616" y="1424" class="f-mono t-primary" font-size="11.5">rafiul.razib@gmail.com</text>
+ 
+  <!-- ══════════════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════════════ -->
+ 
+  <rect x="44" y="1500" width="772" height="1" fill="url(#divider-grad)"/>
+ 
+  <!-- Footer note -->
+  <text x="44" y="1528" class="f-mono t-muted" font-size="12">⭐ Feel free to explore my repositories and connect. I'm always interested in</text>
+  <text x="44" y="1546" class="f-mono" font-size="12" fill="#00e5ff">collaborating on exciting projects</text>
+  <text x="271" y="1546" class="f-mono t-muted" font-size="12"> and learning new technologies.</text>
+ 
+  <!-- Stats row -->
+  <!-- stat 1 -->
+  <text x="650" y="1524" class="f-syne t-primary" font-size="26" font-weight="800" text-anchor="middle">13+</text>
+  <text x="650" y="1542" class="f-mono t-muted" font-size="9.5" text-anchor="middle" letter-spacing="1">YRS EXP.</text>
+  <!-- separator -->
+  <rect x="692" y="1516" width="1" height="32" fill="#1e1e2e"/>
+  <!-- stat 2 -->
+  <text x="730" y="1524" class="f-syne t-primary" font-size="26" font-weight="800" text-anchor="middle">4+</text>
+  <text x="730" y="1542" class="f-mono t-muted" font-size="9.5" text-anchor="middle" letter-spacing="1">PROJECTS</text>
+  <!-- separator -->
+  <rect x="762" y="1516" width="1" height="32" fill="#1e1e2e"/>
+  <!-- stat 3 -->
+  <text x="800" y="1524" class="f-syne t-primary" font-size="26" font-weight="800" text-anchor="middle">BD</text>
+  <text x="800" y="1542" class="f-mono t-muted" font-size="9.5" text-anchor="middle" letter-spacing="1">BASED IN</text>
+ 
+  <!-- Final bottom line -->
+  <rect x="44" y="1570" width="772" height="1" fill="#1e1e2e"/>
+  <text x="430" y="1592" class="f-mono t-muted" font-size="10" text-anchor="middle" opacity="0.5">Rafiul Razib · Full-Stack MERN Developer · Bangladesh</text>
+ 
+</svg>
+ 
