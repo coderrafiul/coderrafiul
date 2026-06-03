@@ -1,6 +1,4 @@
-
-Claude finished the response
-Rewrite the following readme of my github profile using plain html and css as paste ready in my github profile. the final ui should be standout : Hi there 👋, I'm Rafiul Razib
+Hi there 👋, I'm Rafiul Razib
 Full-Stack MERN Developer | React.js | Next.js | TypeScript | Node.js | MongoDB | AI-Powered Applications
 I am a Full-Stack MERN Developer from Bangladesh with a background in Engineering and over 13 years of professional experience in manufacturing leadership. After transitioning into software development, I have built production-ready web applications, AI-powered solutions, e-commerce platforms, document processing systems, and event management applications.
 I enjoy solving real-world problems through technology and continuously exploring new tools, frameworks, and AI technologies.
